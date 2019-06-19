@@ -46,8 +46,6 @@ margin-left:10%;
 
 }
 .authors {
-  border-left: solid 4px #662e68;
-  border-right: solid 4px #662e68;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -103,6 +101,7 @@ color: #662e68;
   border-radius: 10px;
   padding:  10px 20px;
   margin-bottom: 25px;
+  box-shadow: 10px 13px 24px -6px rgba(0,0,0,0.52);
 }
 
 .authors-list {
@@ -124,6 +123,160 @@ color: #662e68;
   border-radius: 10px;
   padding: 10px 20px;
   margin-bottom: 25px;
+  box-shadow: 10px 13px 24px -6px rgba(0,0,0,0.52);
+}
 
+.post-author-name{
+display:block;
+font-size: 25px;
+text-align: center;
+margin-bottom: 25px;
+color: #b0b8db;
 
 }
+.author-link:active,
+.author-link:visited,
+.author-link:hover,
+.author-link:link{
+  text-decoration: none;
+  color: #b0b8db;
+}
+.back-button:active,
+.back-button:visited,
+.back-button:hover,
+.back-button:link{
+  text-decoration: none;
+  color: #b0b8db;
+}
+hr{
+  color: #322b5b
+}
+
+
+.single-post {
+  width: 70%;
+  margin: auto;
+}
+
+.single-post-title {
+  font-size: 45px;
+  text-align: center;
+  color: #322b5b;
+  text-transform: capitalize;
+
+}
+
+.single-post-body {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: #662e68;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #b0b8db;
+
+}
+
+.single-author-container {
+  width: 80%;
+  margin: auto;
+}
+
+.single-author-container section {
+  border-bottom: 1px solid #322b5b;
+}
+
+.back {
+  position: relative;
+}
+
+.back-all-authors {
+  position: absolute;
+  left:20px;
+  font-size: 22px;
+  color: #b0b8db;
+}
+
+.single-author-title {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #322b5b;
+}
+
+.single-author-photo {
+  float: left;
+  margin-right: 100px;
+}
+
+.single-author-photo img {
+  width: 250px;
+}
+
+.single-author-name-info h1 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  color:#322b5b;
+}
+
+.single-author-name-info p {
+  font-size: 24px;
+  padding-bottom: 24px;
+  color: #662e68;
+}
+
+.single-author-adress {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adress h3 {
+  color: #322b5b;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.adress p {
+  font-size: 24px;
+  padding-bottom: 24px;
+  color: #662e68;
+}
+
+.frame {
+  margin: 70px;
+
+}
+
+.single-author-container .company {
+  border-bottom: none;
+}
+.company h1 {
+  color: #322b5b;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.company p {
+  font-size: 24px;
+  padding-bottom: 24px;
+  color: #662e68;
+}
+
+.related-posts {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.related-links:link,
+.related-links:active,
+.related-links:hover,
+.related-links:visited{
+text-decoration: none;
+color: #662e68;
+}
+.related-title{
+  color: #4e5572;
+}
+
+
+
